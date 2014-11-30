@@ -39,7 +39,6 @@ def build_virtualenv(
     global_site_packages -- если True, происходит фолбэк на системные
         site-packages
     env -- ('production'|'testing'|'development') -- выбор файла с зависимостями
-    Если 'development' установить планер в development-mode
     (.pth с ссылкой на директорию).
     """
 
